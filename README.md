@@ -28,5 +28,7 @@ Date:     2018-08-30
 1.  Create repo on GitHub with .gitignore file included.
 2.  git add .
 3.  git commit -a -m "Routing examples"
-4.  git remote add origin https://github.com/robertfg/fetch-examples.git
-5.  git push --set-upstream origin master
+4.  git remote add origin https://github.com/robertfg/pug-example.git
+5.  You have 2 separate repos now, one on GitHub and one locally in Git, with different histories you have to merge:
+    - git pull origin master --allow-unrelated-histories
+6.  git push --set-upstream=to origin master
