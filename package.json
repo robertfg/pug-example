@@ -1,0 +1,13 @@
+{
+  "name": "pug-example",
+  "version": "1.0.0",
+  "description": "Project:  This project is designed to test Pug.\r Author:   Robert Glover\r Date:     2018-08-30",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
